@@ -1,0 +1,10 @@
+[web]
+ip-172-31-30-67.us-west-1.compute.internal
+ip-172-31-16-220.us-west-1.compute.internal
+ip-172-31-16-172.us-west-1.compute.internal
+
+[ext]
+ec2-13-56-12-158.us-west-1.compute.amazonaws.com
+ec2-13-56-115-15.us-west-1.compute.amazonaws.com
+ec2-54-193-82-162.us-west-1.compute.amazonaws.com
+

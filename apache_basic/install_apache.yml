@@ -1,0 +1,17 @@
+---
+- hosts: web
+  name: Install the apache web service
+  become: yes
+
+  tasks:
+    - name: start httpd
+      service:
+        name: httpd
+        state: stopped
+
+    - name: install apache
+      package:
+        name: httpd
+        state: absent
+
+
